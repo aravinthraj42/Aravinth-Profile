@@ -1,0 +1,155 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #f0fdf4;
+  --foreground: #14532d;
+  --primary: #059669;
+  --primary-foreground: #fff;
+  --accent: #34d399;
+  --accent-teal: #14b8a6;
+  --muted: #4d7c0f;
+  --card: rgba(255, 255, 255, 0.9);
+  --card-border: rgba(34, 197, 94, 0.15);
+}
+
+/* Dark theme: soft dark (gray-700 base, not black) + green accents */
+.dark {
+  --background: #4b5563;
+  --foreground: #f9fafb;
+  --primary: #22c55e;
+  --primary-foreground: #fff;
+  --accent: #4ade80;
+  --accent-teal: #2dd4bf;
+  --muted: #9ca3af;
+  --card: rgba(55, 65, 81, 0.92);
+  --card-border: rgba(156, 163, 175, 0.25);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), system-ui, sans-serif;
+  min-height: 100vh;
+}
+
+/* Display font for headings */
+.font-display {
+  font-family: var(--font-display), var(--font-sans), system-ui, sans-serif;
+}
+
+/* Site-wide subtle background (fixed, behind content) */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  background-color: var(--background);
+  pointer-events: none;
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-image:
+    radial-gradient(ellipse 80% 50% at 20% 20%, rgba(5, 150, 105, 0.12) 0%, transparent 50%),
+    radial-gradient(ellipse 60% 40% at 80% 10%, rgba(20, 184, 166, 0.08) 0%, transparent 50%),
+    radial-gradient(ellipse 50% 50% at 50% 80%, rgba(52, 211, 153, 0.1) 0%, transparent 50%);
+  background-size: 100% 100%;
+  opacity: 1;
+}
+
+.dark body::after {
+  background-image:
+    radial-gradient(ellipse 70% 40% at 30% 20%, rgba(34, 197, 94, 0.1) 0%, transparent 50%),
+    radial-gradient(ellipse 50% 30% at 75% 80%, rgba(52, 211, 153, 0.08) 0%, transparent 50%);
+}
+
+/* Subtle noise texture overlay for depth */
+.noise-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0.03;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+.dark .noise-overlay {
+  opacity: 0.02;
+}
+
+/* Hero / sections: static gradient (no movement) */
+.bg-mesh {
+  background-color: transparent;
+  background-image:
+    radial-gradient(at 40% 20%, rgba(5, 150, 105, 0.2) 0px, transparent 50%),
+    radial-gradient(at 85% 15%, rgba(20, 184, 166, 0.12) 0px, transparent 50%),
+    radial-gradient(at 10% 70%, rgba(52, 211, 153, 0.1) 0px, transparent 50%);
+  background-size: 100% 100%;
+}
+
+.dark .bg-mesh {
+  background-image:
+    radial-gradient(at 40% 20%, rgba(34, 197, 94, 0.12) 0px, transparent 50%),
+    radial-gradient(at 85% 80%, rgba(52, 211, 153, 0.08) 0px, transparent 50%);
+}
+
+/* Subtle grid overlay */
+.bg-grid {
+  background-image:
+    linear-gradient(rgba(34, 197, 94, 0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(34, 197, 94, 0.06) 1px, transparent 1px);
+  background-size: 64px 64px;
+}
+
+.dark .bg-grid {
+  background-image:
+    linear-gradient(rgba(156, 163, 175, 0.12) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(156, 163, 175, 0.12) 1px, transparent 1px);
+}
+
+/* Glass card */
+.glass-card {
+  @apply backdrop-blur-xl rounded-2xl;
+  background: var(--card);
+  border: 1px solid var(--card-border);
+  box-shadow: 0 8px 32px rgba(5, 46, 22, 0.06);
+}
+
+.dark .glass-card {
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* Section spacing */
+.section-padding {
+  @apply px-4 sm:px-6 lg:px-8 py-16 sm:py-20 lg:py-24;
+}
+
+.max-section {
+  @apply max-w-6xl mx-auto;
+}
+
+/* Gradient text */
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-primary-500 via-primary-400 to-accent-teal;
+}
+
+/* Focus ring for a11y */
+*:focus-visible {
+  @apply outline-2 outline-offset-2 outline-primary-500;
+}

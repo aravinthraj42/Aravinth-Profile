@@ -1,0 +1,95 @@
+Aravinth Raj J
+Senior Front-End Developer
+aravinthraj42@gmail.com | 
+Summary
++91-8124483546 | LinkedIn | GitHub | HackerRank
+Senior Front-End Developer with 4.3+ years of experience designing and delivering scalable, user-focused web
+applications using React JS, Next JS and modern JavaScript frameworks. Adept at responsive UI development, state
+management, and performance optimization. Certified in multiple web technologies and recognized for strong problem
+solving, mentoring, and driving efficient, maintainable solutions in agile environments.
+Skills
+Technical: React.js, React Hooks, Redux, JavaScript(ES6+), React-Query Next.js, Node.js, Typescript, REST
+API, HTML5, CSS3, SASS, Bootstrap, Responsive Web Design, MUI, Tailwind CSS, JSP, Gen AI, Prompting AI,
+Troubleshooting, Production Bug Resolution.
+Soft Skills: Agile Methodologies, Problem Solving, Analytical Thinking, Communication, Collaboration, Knowledge
+Sharing, Client Interaction
+Tools: Git, GitHub, Github Actions Jenkins, Postman, Swagger ESLint, Splunk, Rally, React DevTools, Chrome
+DevTools, NPM, Docker
+IDE: VS Code, IntelliJ, WebStorm
+OS: Windows, Mac, Linux
+Work Experience
+Thought Minds– Senior Software Engineer
+Project: Fragomen Educational Services (FES)
+Feb 2025– Present
+Tech Stack: React.js | JavaScript | MUI | Tailwind | Redux | React Query | .NET VB C# | SQL | AWS
+• Built an agile, full-stack application from scratch, defining business flow, user flow and development strategy.
+• Analyzed core business needs and implemented end-to-end UI and business logic.
+• Owned module setup including state management, routing, and styling.
+• Developed key features such as bulk operations and social media integration.
+• Provided hands-on technical guidance to interns and junior developers by assigning tasks,monitoring progress, and
+offering full technical support to ensure timely, high-quality delivery.
+• Accelerated delivery using AI-driven coding tools like Cursor and GitHub Copilot.
+Project II: ClearlyRated– Rating Website for Company and Customers
+Tech Stack: React.js | JavaScript | HTML | CSS/SCSS
+Feb 2025– Mar 2025
+• Redesigned the client website based on the provided Figma design, ensuring visually appealing user interface.
+• Delivered 3-5 fully functional pages within a two-week sprint, maintaining high-quality standards.
+• Ensured the complete responsiveness of the website across all devices by optimizing pages for various screen sizes.
+• Provided guidance and mentorship to junior developers and interns, supporting their growth and assisting with
+their projects to ensure successful outcomes.
+Infosys– System Engineer
+Project III: American Express– Card Service US Client
+Tech Stack: React.js | JavaScript | Java | JSP
+Jul 2021– Dec 2024
+• Working in Agile Development Methodologies, directly interacting with Clients and Product Teams.
+• Delivered 15+ new features using React Hooks and state Management ensuring 100% responsiveness.
+• Managed React form data using state and props in both Functional and Class Components. .
+• Contributed numerous pull requests with 100% unit testing to the client’s Git repository.
+• Reviewed 20+ pull requests weekly, improving code quality and adherence to coding standards.
+• Wrote unit tests for React components, achieving 100% test coverage with Jest and React Testing Library.
+• Automated deployment processes using Jenkins CI/CD pipeline for seamless production rollouts.
+• Contributing continuously to the internal application which aligned with Infosys’ development standards and best
+practices.
+• Resolved over 50+ production issues, minimizing downtime and ensuring client satisfaction.
+• Managed Linux file systems, including PDF file movements and permission checks.
+• Migrated legacy applications built on monolithic architecture using JSP to modern React-based UIs.
+• Documented legacy application features to facilitate migration to React UI.
+• Provided bug fixes and incident management.
+• Mentored 5+ junior developers, conducting knowledge-sharing sessions and improving team productivity.
+Personal Projects
+Portfolio Website
+View My Portfolio
+Designed and developed a professional personal portfolio website to showcase skills, projects, and certifications.
+• Built using React JS for dynamic content rendering and CSS for responsive styling.
+• Ensured mobile-first design, providing an optimal viewing experience across various devices.
+• Incorporated best practices, improving usability for a wider audience.
+• Deployed on GitHub Pages for easy public access and fast loading times.
+Hex Node Clone
+View-Hex-Node-Clone
+Developed a pixel-perfect responsive clone of a hexagonal-themed website, showcasing advanced UI design and
+implementation skills.
+• Built using React JS for component-based architecture and modern CSS techniques for styling.
+• Recreated original layout and animations with precision, focusing on user experience and smooth interactions.
+• Designed with cross-browser compatibility, ensuring consistent appearance across major web browsers.
+• Deployed on Netlify for fast and reliable hosting, enabling quick access for reviewers and stakeholders.
+Certifications
+• Frontend Developer (React)– HackerRank
+• JavaScript (Intermediate)– HackerRank
+• Infosys Certified React JS Web Developer
+• Infosys Certified Front-End Web Developer
+• Infosys Global Agile Developer Certification
+Awards
+View
+View
+• Infosys DX Unit Rise Awards– Rookie of the Quarter
+• Infosys Insta Awards– 100% client deliverables achievement
+Additional Activities
+• Participated in Design Day Event, WONG DOODY Studio, Bangalore.
+• Attended offline Workshop Series on Front-End Development, Bangalore DC.
+Education
+B.Sc. in Mathematics
+Hindustan College of Arts and Science, Bharathiar University, Coimbatore
+M.C.A.– Master of Computer Application
+Madras University (Distance Education), Chennai
+2018–2021
+2023–2025
